@@ -1,0 +1,41 @@
+package org.escoladeltreball.iaw47930799;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+
+/*
+ * Para componentente Spring , para usar autowired
+ * Data Access Object
+ * */
+@Service
+public class ClientDAO {
+	
+	private List<Client> clients = new ArrayList<Client>();
+	
+	{
+		clients.add(new Client(1, "Joel"));
+		clients.add(new Client(2, "Joan"));
+		clients.add(new Client(3, "Ana"));
+		clients.add(new Client(4, "Estela"));
+		clients.add(new Client(5, "Pere"));
+		
+	}
+
+	public Client findById(long id) {
+			
+		for (Client client: clients) {
+			if (client.getId() == id ) {
+				return client;
+			}
+		}
+		
+		return null;	
+		
+	}
+	
+	
+	
+}

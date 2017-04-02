@@ -1,0 +1,11 @@
+package org.escoladeltreball.springmvcsecuritydemo1;
+
+import org.springframework.security.web.context.AbstractSecurityWebApplicationInitializer;
+
+/*
+ * springSecurityFilterChain
+ */
+public class MySecurityWebApplicationInitializer 
+extends AbstractSecurityWebApplicationInitializer {
+
+}

@@ -1,0 +1,8 @@
+package org.escoladeltreball.iaw47930799;
+
+@Configuration
+@ComponentScan
+@PropertySources()
+public class SpringContextConfig {
+
+}

@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<html>
+<head th:include="templates/head :: header"></head>
+<body>
+
+</body>
+</html>

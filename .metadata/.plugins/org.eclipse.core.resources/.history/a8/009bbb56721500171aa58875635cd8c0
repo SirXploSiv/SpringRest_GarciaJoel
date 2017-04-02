@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head th:include="templates/head :: header"></head>
+<body>
+	<div class="container">
+		<div class="page-header">
+			<h1>Client Controller</h1>
+		</div>
+		<div class="row">
+			<div class="well">
+				<p># Quitar XML | DONE
+				# Implementar Model | NOPE
+				# JDBC Template | NOPE
+				# ORM | NOPE
+				# OPERACIONES CRUD:
+				# FindById
+				# FindAll
+				# deleteClient
+				# Insert
+				# Update
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

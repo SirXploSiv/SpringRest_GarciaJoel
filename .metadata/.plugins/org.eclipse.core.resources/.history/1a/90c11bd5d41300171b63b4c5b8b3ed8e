@@ -1,0 +1,14 @@
+package org.escoladeltreball.iaw47930799;
+
+/*
+ * Data Access Object
+ * */
+public class ClientDAO {
+	
+	private List<Client> client = new ArrayList<Client>();
+	
+	{
+		
+	}
+	
+}

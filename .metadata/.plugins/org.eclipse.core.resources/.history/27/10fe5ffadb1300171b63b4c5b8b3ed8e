@@ -1,0 +1,32 @@
+package org.escoladeltreball.iaw47930799;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class ClientController {
+	
+	@Autowired
+	private ClientDAO clientDAO;
+	
+	@RequestMapping("/clients/{id}")
+	public Client findClientById(@PathVariable long id) {
+		return clientDAO.findById(id);
+	}
+	
+	@RequestMapping("/clients/{name}")
+	public Client findClientByName(@PathVariable String name) {
+		return clientDAO.findById(id);
+	}
+	
+	@RequestMapping("/clients")
+	public List<Client> findAllClients() {
+		return clientDAO.findAll();
+	}
+	
+	
+}

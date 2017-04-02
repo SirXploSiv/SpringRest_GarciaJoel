@@ -1,0 +1,24 @@
+package org.escoladeltreball.iaw47930799;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/*
+ * Data Access Object
+ * */
+public class ClientDAO {
+	
+	private List<Client> clients = new ArrayList<Client>();
+	
+	{
+		clients.add(new Client(1,"Joel"));
+		clients.add(new Client(2,"Joan"));
+		clients.add(new Client(3,"Ana"));
+		clients.add(new Client(4,"Estela"));
+		clients.add(new Client(5,"Pere"));
+		
+	}
+	
+	public Client()
+	
+}

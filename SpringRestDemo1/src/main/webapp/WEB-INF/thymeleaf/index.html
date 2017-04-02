@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head th:include="templates/head :: header"></head>
+<body>
+	<div class="container">
+		<div class="page-header">
+			<h1>Client Controller</h1>
+		</div>
+		<div class="well">
+			For find a client by id just in the url:
+			<code>/clients/{ID}</code>
+		</div>
+		<div class="row">
+			<a class="btn btn-block btn-info" href="clients">Display clients</a>
+			<a class="btn btn-block btn-success" href="createClient">Create client</a>
+			<a class="btn btn-block btn-warning" href="updateClient">Update client</a>
+			<a class="btn btn-block btn-danger" href="deleteClient">Delete client</a>
+		</div>
+	</div>
+</body>
+</html>
